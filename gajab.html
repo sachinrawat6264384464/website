@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visitor Counter</title>
+    <style>
+        #visitor-counter {
+            font-weight: bold;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div class="dt-footer-section-2">
+        <div class="container-max">
+            <span class="total-visitors-info">
+                <p>
+                    <b>Total Visits:</b>
+                    <span id="visitor-counter">Loading...</span>
+                </p>
+            </span>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", async () => {
+            const visitorCounter = document.getElementById("visitor-counter");
+
+            try {
+                // Send request to the server to get updated visitor count
+                const response = await fetch("http://localhost:3000/visits");
+                const data = await response.json();
+
+                // Update the counter display
+                visitorCounter.textContent = data.count;
+            } catch (error) {
+                console.error("Failed to load visitor count:", error);
+                visitorCounter.textContent = "Error";
+            }
+        });
+    </script>
+</body>
+</html>
