@@ -1,0 +1,160 @@
+*{
+width: 0px;
+height: 0px;
+background-color: rgb(84, 89, 92);
+}
+
+.sum{
+    width: 800px;
+    height: 60vh;
+    border-radius: 30px;
+    color: rgb(24, 24, 24);
+    background-color: rgb(245, 241, 241);
+    background-size: cover;
+    position: relative;
+     top: 50px;
+     left: 380px;
+     z-index: 1;
+}
+.h1{
+    font-size: 4em;
+    font-weight: 900;
+    text-transform: uppercase;
+    position: relative;
+    top: 290px;
+    left: 50px;
+}
+.h2{
+    font-size: 15px;
+    font-weight: 400;
+    position: relative;
+    top: 310px;
+    left: 50px;
+
+}
+.h3{
+    font-size: 15px;
+    font-weight: 500;
+    position: relative;
+    top: 350px;
+    left: 50px;
+
+}
+.h4{
+    font-size: 27px;
+    color: rgb(34, 0, 254);
+    font-weight:1000;
+    position: relative;
+    top: 330px;
+    left: 630px;
+    transition: 0.3s ;
+}
+.h4:hover{
+    transform: scale(1.1);
+}
+.yy{
+    width: 35px;
+    height: 35px;
+    position: relative;
+    top: 300px;
+    left: 720px;
+    background-color: #f7f3f3;
+    border-radius: 14px;
+}
+
+button{
+      width: 120px;
+      height: 40px;
+      font-size: 10px;
+      font-weight: 900;
+      text-transform: uppercase;
+      color: aliceblue;
+      background-color: rgb(36, 36, 205);
+      border-radius: 15px;
+      position: relative;
+      top: 200px;
+      left: 620px;
+
+
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: large;
+    background-color: transparent;
+}
+.pamp{
+    width: 760px;
+    height: 200px;
+    border: 3px solid black;
+    border-radius: 10px;
+    color: rgb(252, 248, 248);
+    background-color: black;
+    background-size: cover;
+    position: relative;
+    left: 400px;
+    
+    bottom: 380px;
+    z-index: 2;
+}
+.p{
+    font-size: 25px;
+    font-weight: 500;
+    position: relative;
+    top: 20px;
+    left: 30px;
+}
+spam{
+    color: rgb(0, 59, 252);
+    font-weight: bold;
+    background-color: transparent;
+}
+.dd{
+    width: 35px;
+    height: 35px;
+    position: relative;
+    top: 70px;
+    left: 250px;
+    color: rgb(18, 17, 17);
+    background-color: #f7f3f3;
+    border-radius: 10px;
+    
+}
+.zz{
+    width: 35px;
+    height: 35px;
+    position: relative;
+    top: 70px;
+    left: 370px;
+    color: rgb(28, 26, 26);
+    background-color: #f8f5f7;
+    border-radius: 10px;
+    
+}
+    
+
+.titl{
+    width: 150px;
+    height: 150px;
+    background-image: url("sa.jpg");
+    background-size: cover;
+    border-radius: 100px;
+    position: relative;
+    left: 430px;
+    bottom: 460px;
+    border: 2px solid rgb(58, 4, 253);
+    z-index: 3;
+}
+.iii{
+    
+    width: 150px;
+    height: 150px;
+    background-image: url("jj.jpg");
+    background-size: cover;
+    border-radius: 50px;
+    position: relative;
+    left: 1010px;
+    bottom: 690px;
+    
+    z-index: 3;
+}

@@ -1,0 +1,484 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(21, 205, 247);
+}
+.nav{
+    width: 400px;
+    height: 650px;
+   margin-left: 80px;
+   margin-top: 30px;
+    background-color: rgb(252, 249, 249);
+    box-shadow: 20px 20px 20px;
+}
+.mm{
+
+    font-size: 20px;
+    position: relative;
+    top:240px;
+    left: 40px;
+    
+
+}
+.cc{
+    font-size: 14px;
+    position: relative;
+    top:240px;
+    left: 40px;
+}
+.s1{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top:260px;
+    left: 40px;
+    border-radius: 50px;
+    
+    background-color: gold;
+    
+}
+.s1:hover{
+    cursor: pointer;
+    background-color: red;
+}
+.s2{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top:210px;
+    left: 130px;
+    border-radius: 50px;
+    
+    background-color: gold;
+    
+}
+.s2:hover{
+    cursor: pointer;
+    background-color: red;
+}
+.s3{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top:160px;
+    left: 230px;
+    border-radius: 50px;
+    
+    background-color: gold;
+    
+}
+.s3:hover{
+    cursor: pointer;
+    background-color: red;
+}
+.s4{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top:110px;
+    left: 310px;
+    border-radius: 50px;
+    
+    background-color: gold;
+    
+}
+.s4:hover{
+    cursor: pointer;
+    background-color: red;
+}
+
+.container{
+
+    width: 400px;
+    height: 220px;
+    background-image: url("https://img.jagranjosh.com/images/2024/August/2582024/janmashtami-images.jpg");
+    background-size: cover;
+    position: relative;
+    bottom: 263px;
+    display:flex;
+    
+
+}
+h5{color: rgb(6, 183, 241);
+    position: relative;
+    left: 20px;
+    font-size: 20px;
+    
+}
+ul{
+
+    width: 245px;
+    height: 20px;
+    position: relative;
+    left: 90px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    box-shadow:inset;
+    
+}
+li{
+    color:aqua;
+    text-decoration: none;
+    margin-left: 20px;
+    position: relative;
+    left: 10px;
+    text-wrap: none;
+}
+li:hover{
+    cursor: pointer;
+    color: red;
+}
+.xx{
+    width: 50px;
+    height: 20px;
+    position: relative;
+    top: 140px;
+    right: 270px;
+    background-color: aqua;
+    border: 2px solid black;
+}
+.xx:hover{
+    cursor: pointer;
+    background-color: red;
+}
+.xx1{
+    width: 50px;
+    height: 20px;
+    position: relative;
+    top: 140px;
+    right: 270px;
+    background-color: aqua;
+    border: 2px solid black;
+}
+.xx1:hover{
+    cursor: pointer;
+    background-color: red;
+}
+
+.dd{
+    width: 400px;
+    height: 240px;
+    background-color: rgb(154, 159, 154);
+    position: relative;
+    bottom: 70px;
+    
+    
+    
+}h1{
+    
+    position: relative;
+    left: 190px;
+    bottom: 220px;
+    
+    
+    
+}
+h3{
+    position: relative;
+    left: 190px;
+    bottom: 220px;
+    
+    
+}
+p{
+    position: relative;
+    left: 190px;
+    bottom: 220px;
+    
+
+}
+.d0{
+    display: flex;
+}
+.d1{
+    width: 60px;
+    height: 250px;
+    background-image: url("https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+   background-size: cover;
+    position: relative;
+    bottom: 10px;
+}
+.d2{
+    width: 60px;
+    height: 240px;
+    position: relative;
+    top: 0px;
+    left: 4px;
+    background-image: url("https://images.pexels.com/photos/11431305/pexels-photo-11431305.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+   background-size: cover; 
+}
+.d3{
+    width: 80px;
+    height: 80px;
+    
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ1ipeQbFseUM_GzxwMoQj45w9HtAnu4eu5w&s");
+   background-size: cover;
+    position: relative;
+    top: 30px;
+    right: 40px;
+    border-radius: 50px;
+}
+
+
+.d4{
+    width: 100px;
+    height: 100px;
+    background-image: url("https://imgv3.fotor.com/images/slider-image/A-clear-close-up-photo-of-a-woman.jpg");
+    background-size: cover;
+    position: relative;
+    top: 140px;
+    left: 0px;
+    border-radius: 50px;
+}
+
+
+.d5{
+    width: 90px;
+    height: 90px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNNTx3C_csKjrb1D-3XnwdUDYsOt4TBSd80hv8ls3ZHCesapgcsXKwWtSmM-52ea4Rzo0&usqp=CAU");
+    background-size: cover;
+    position: relative;
+    top: 110px;
+    right: 15px;
+    border-radius: 50px;
+}
+.qq{
+    width: 500px;
+    height: 300px;
+    background-color: rgb(41, 95, 232);
+    position: relative;
+    left: 550px;
+    bottom: 640px;
+    border-radius: 2px;
+    box-shadow: 10px 10px 10px ;
+    
+}
+.y3{
+    width: 170px;
+    height: 190px;
+    background-color: white;
+    position: relative;
+    
+    left: 280px;
+    bottom: 60px;
+  box-shadow: 5px 5px 5px rgb(18, 18, 18);
+}
+
+    .zz{
+        color: rgb(23, 21, 21);
+        width: 70px;
+        height: 20px;
+        position: relative;
+        top: 50px;
+        left: 10px;
+        background-color: rgb(250, 214, 9);
+    }
+    .zz:hover{
+        cursor: pointer;
+        background-color: red;
+    }
+    .g2{
+        font-size: 20px;
+        color: black;
+        position: relative;
+        top: 30px;
+    }
+    .f4{
+        font-size: 15px;
+        color: black;
+        position: relative;
+        top: 30px;
+        left: 20px;
+    }
+    .g3{
+        font-size: 20px;
+        color: rgb(242, 238, 238);
+        position: relative;
+        top: 70px;
+        right: 60px;
+    }
+    .g5{
+        font-size: 20px;
+        color: rgb(242, 238, 238);
+        position: relative;
+        top: 90px;
+        right: 260px;
+    }
+    .view{
+        width: 50px;
+        height: 50px;
+        background-color: brown;
+        border-radius: 50px;
+        cursor: pointer;
+        position: relative;
+        top: 160px;
+        left: 60px;
+        background-image: url("https://th.bing.com/th/id/OIG2.9O4YqGf98tiYzjKDvg7L");
+        background-size: cover;
+    }
+    .ttt{
+        width: 50px;
+        height: 50px;
+        background-color: brown;
+        border-radius: 50px;
+        cursor: pointer;
+        position: relative;
+        top: 110px;
+        left: 200px;
+        background-image: url("https://image-processor-storage.s3.us-west-2.amazonaws.com/images/866759932dc5358cee86f6552d1250f2/inside-bubble-spheres.jpg");
+   
+         background-size: cover;
+    }
+    .oo{
+        width: 500px;
+    height: 300px;
+    background-image: url("https://t3.ftcdn.net/jpg/02/70/35/00/360_F_270350073_WO6yQAdptEnAhYKM5GuA9035wbRnVJSr.jpg");
+    background-size: cover;
+    position: relative;
+    left: 550px;
+    bottom: 600px;
+    border-radius: 2px;
+    box-shadow: 10px 10px 10px ;
+    font-size: 20px;
+    color: rgb(12, 13, 13);
+    }
+    .cx{
+        position: relative;
+        top: 160px;
+        left: 80px;
+    }
+    .vm{
+        background-color: rgb(245, 225, 5);
+        position: relative;
+        top: 160px;
+        left: 80px;
+    }
+    .bn{width: 160px;
+        height: 14px;
+        background-color: aliceblue;
+        position: relative;
+        top: 135px;
+        left: 247px;
+    }
+    .title{
+        font-size: 3rem;
+        color: rgb(246, 244, 244);
+        position: relative;
+        top: 120px;
+        left: 50px;
+    }
+    .ip{
+        color: black;
+        font-size: 2rem;
+        width: 400px;
+    height: 650px;
+    position:relative;
+   left: 1100px;
+   bottom: 1250px;
+    /*background-image: url("https://img.freepik.com/premium-vector/beautiful-landscape-nature-background-images-free-download-freepik-vector_1305309-83.jpg");
+    background-size:cover ; */
+    background-color: aliceblue;
+    box-shadow: 20px 20px 20px;
+    }
+    .lk{
+        width: 120px;
+        height: 120px;
+        border-color:  red;
+        border-radius: 50px 50px 50px;
+        position: relative;
+        top:40px;
+        left: 250px;
+        border-style: circle solid;
+        background-image: url("https://thumbs.dreamstime.com/b/rocket-logo-vector-design-template-website-print-basic-rgb-336147386.jpg");
+        background-size: cover;
+    }
+    .hj{
+        position: relative;
+        top: 90px;
+        left: 40px;
+    }
+    .nf{
+        width: 80px;
+        height: 60px;
+        margin-left: 15px;
+        position: relative;
+        top: 90px;
+        box-shadow: 7px 7px 7px;
+        font-size: 15px;
+    }
+    .mf{
+        width: 80px;
+        height: 60px;
+        margin-left: 15px;
+        position: relative;
+        top: 90px;
+        background-color: rgb(7, 209, 245);
+        box-shadow: 7px 7px 7px;
+        font-size: 15px;
+    }
+    .v1{
+        width: 50px;
+        height: 50px;
+        position: relative;
+        top:200px;
+        left: 40px;
+        border-radius: 50px;
+        background-image: url("https://img-cdn.pixlr.com/image-generator/history/65bb506dcb310754719cf81f/ede935de-1138-4f66-8ed7-44bd16efc709/medium.webp");
+        background-size: cover;
+        
+    }
+    .v1:hover{
+        cursor: pointer;
+        background-color: red;
+    }
+    .v2{
+        width: 50px;
+        height: 50px;
+        position: relative;
+        top:150px;
+        left: 170px;
+        border-radius: 50px;
+        background-image: url("https://i0.wp.com/picjumbo.com/wp-content/uploads/silhouette-of-a-guy-with-a-cap-at-red-sky-sunset-free-image.jpeg?h=800&quality=80");
+        background-size: cover;
+        
+    }
+    .v2:hover{
+        cursor: pointer;
+        background-color: red;
+    }
+    .v3{
+        width: 50px;
+        height: 50px;
+        position: relative;
+        top:100px;
+        left: 290px;
+        border-radius: 50px;
+        
+        background-image: url("https://img.freepik.com/free-photo/abstract-shapes-exploding-chaotic-colorful-motion-generated-by-ai_188544-30465.jpg");
+        background-size: cover;
+    }
+    .v3:hover{
+        cursor: pointer;
+        background-color: red;
+    }
+    .ol{
+        width: 380px;
+        height: 130px;
+        position: relative;
+        top: 130px;
+        left: 10px;
+        border-radius: 5px;
+        background-image: url("https://i.ytimg.com/vi/Ria9ccAwHJg/maxresdefault.jpg");
+        background-size: cover;
+        
+    }
+    .navbar{
+        font-size: 16px;
+        background-color: rgb(0, 229, 255);
+    }
